@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="Legend.mygraphicaleditor" name="MyGraphicalEditor" schema="schema/Legend.mygraphicaleditor.exsd"/>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="legend.Application">
+         </run>
+      </application>
+   </extension>
+   
+   
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="legend.Perspective"
+            name="RCP Perspective"
+            id="Legend.perspective">
+      </perspective>
+   </extension>
+   
+   
+    <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="legend.MyGraphicalEditor"
+            name="MyGraphicalEditor"
+            id="LEGEND.mygraphicaleditor">
+      </editor>
+   </extension>
+   
+   
+   
+   
+
+</plugin>
