@@ -1,0 +1,16 @@
+body{
+    color: #FFEDDB;
+}
+
+#container{
+    background-color: yellow;
+    color: orange;
+    padding: 15px;
+    margin: 100px auto 0px;
+    width: 600px;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    font-family: Consolas;
+    box-shadow: 10px 10px 15px black;
+}

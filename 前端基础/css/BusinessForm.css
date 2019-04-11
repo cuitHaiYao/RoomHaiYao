@@ -1,0 +1,19 @@
+#recruit{
+    width: 100%;
+    border-collapse: collapse;/*合并两个单元格之间的外边*/
+    text-align: left;
+}
+
+#recruit td,#recruit th{
+    border: 1px solid orange;  /*设置表格线为橘黄色*/
+    padding: 7px;/*设置内边距为7px*/
+}
+
+#recruit th{
+    background-color: orange;  /*设置背景色*/
+    color: #FFFFFF;/*设置字体颜色*/
+}
+
+#recruit tr.orange{
+    background-color: yellow /*给每行设置背景颜色*/
+}
